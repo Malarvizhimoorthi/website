@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #051129;
+  height: 40px;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar-header img{
+  height: 90px;
+  width: 90px;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-header {
+  color: rgb(33, 77, 235);
+  font-weight: bolder;
+  font-size: 50px;
+  
+
+}
+.history h2{
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  color: rgb(4, 22, 111);
+}
+.history img{
+  float: left;
+  height: 500px;
+  width: 350px;
+
+}
+.history p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-left: 5px;
+}
+.pride{
+  
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqv4kcQjEnJOTPp9N17b6jy080tl05OVPKA&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+
+}
+.pride h2{
+  font-weight: 600;
+  padding-top: 60px;
+}
+.pride p{
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.pride ul li{
+display: flex;
+justify-content: flex-start;
+padding: 10px;
+
+
+}
+.culture h2{
+   font-size: 50px;
+   padding-top: 10px;
+   color: rgb(153, 26, 7);
+}
+
+.nav-link {
+  color: rgb(11, 11, 11);
+}
+.contact{
+  background-image:url(https://static.vecteezy.com/system/resources/previews/028/695/561/non_2x/indian-flag-abstract-background-wallpaper-for-independence-day-on-15-august-ai-generative-free-photo.jpg);
+}
+.contact-text h2 h3{
+  margin-top: 20px;
+  font-size: 70px;
+  color: #0ef;
+
+}
+.contact-form {
+  position: relative;
+  width: 70%;
+ 
+}
+
+.contact-form form {
+  border: none;
+  outline: none;
+  width: 70%;
+  padding: 5px 0px 0 90px;
+
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.contact-icons{
+  align-items: start;
+  justify-content: left;
+}
+.contact-icons a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid #0ef;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+
+}
+.contact-icons a:hover{
+  background: #0ef;
+  color: #000;
+  box-shadow: 0 0 20px #0ef;
+}
